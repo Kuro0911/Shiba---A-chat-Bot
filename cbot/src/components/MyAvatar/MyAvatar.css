@@ -1,0 +1,20 @@
+.My-avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 1.0rem;
+    color: rgb(3, 0, 184);
+    background: white;
+    margin-left: auto;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.UserImg{
+  content: url("https://lh3.googleusercontent.com/aTvX9JFY42bJuq4AncyeATD7aKwHzK3Tn2VZOpNupNl2WRQiy7InZEc-ibl2ILaDjAheI6Tg8P4comh149GWurxnJHxh6tuWlYvxsPwH9qFywoMbV6N4_RjfJdkwmT_E5WslS0EsQA=w2400");
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+}

@@ -1,0 +1,19 @@
+.crypto-bot-avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: green;
+    background: white;
+    margin: 5px;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.shiba{
+    content: url("https://lh3.googleusercontent.com/kOODH1UDaCQ99JPkQXZY3PvkEcuY2B0DS7exApJ9r3PFDWjINbUgKI9kJI0kxnSwzohlk63Zmqi04CoJIg-SQBfXKmKjFxpgpAbFcqxvx3bS435TxbOgCTAbgWFre16FC9ywQ79IYQ=w2400");
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}

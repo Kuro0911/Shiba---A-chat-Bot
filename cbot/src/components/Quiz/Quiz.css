@@ -1,0 +1,25 @@
+.flashcard-container {
+  background-color: rgba(5, 202, 136, 0.568);
+  padding: 10px;
+  border-radius: 18px;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: initial;
+  position: relative;
+  width: 200px;
+  margin-left: 45px;
+  margin-bottom: 15px;
+  text-align: left;
+  }
+  
+  .flashcard-button {
+    background-color: rgba(5, 202, 136, 0.568);
+    padding: 10px;
+    border-style: double;
+    border-radius: 18px;
+    font-size: 0.9rem;
+    color: white;
+    width: 200px;
+    margin-left: -113px;
+    text-align: left;
+  }
