@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Kuro0911/Shiba---A-chat-Bot/static/css/main.38015c35.chunk.css",
-    "main.js": "/Kuro0911/Shiba---A-chat-Bot/static/js/main.e5b61545.chunk.js",
-    "main.js.map": "/Kuro0911/Shiba---A-chat-Bot/static/js/main.e5b61545.chunk.js.map",
-    "runtime-main.js": "/Kuro0911/Shiba---A-chat-Bot/static/js/runtime-main.4ae21c99.js",
-    "runtime-main.js.map": "/Kuro0911/Shiba---A-chat-Bot/static/js/runtime-main.4ae21c99.js.map",
-    "static/js/2.2b7141d4.chunk.js": "/Kuro0911/Shiba---A-chat-Bot/static/js/2.2b7141d4.chunk.js",
-    "static/js/2.2b7141d4.chunk.js.map": "/Kuro0911/Shiba---A-chat-Bot/static/js/2.2b7141d4.chunk.js.map",
-    "static/js/3.bd0f83ee.chunk.js": "/Kuro0911/Shiba---A-chat-Bot/static/js/3.bd0f83ee.chunk.js",
-    "static/js/3.bd0f83ee.chunk.js.map": "/Kuro0911/Shiba---A-chat-Bot/static/js/3.bd0f83ee.chunk.js.map",
-    "index.html": "/Kuro0911/Shiba---A-chat-Bot/index.html",
-    "static/css/main.38015c35.chunk.css.map": "/Kuro0911/Shiba---A-chat-Bot/static/css/main.38015c35.chunk.css.map",
-    "static/js/2.2b7141d4.chunk.js.LICENSE.txt": "/Kuro0911/Shiba---A-chat-Bot/static/js/2.2b7141d4.chunk.js.LICENSE.txt"
+    "main.css": "/Shiba---A-chat-Bot/static/css/main.38015c35.chunk.css",
+    "main.js": "/Shiba---A-chat-Bot/static/js/main.e5b61545.chunk.js",
+    "main.js.map": "/Shiba---A-chat-Bot/static/js/main.e5b61545.chunk.js.map",
+    "runtime-main.js": "/Shiba---A-chat-Bot/static/js/runtime-main.4684566e.js",
+    "runtime-main.js.map": "/Shiba---A-chat-Bot/static/js/runtime-main.4684566e.js.map",
+    "static/js/2.2b7141d4.chunk.js": "/Shiba---A-chat-Bot/static/js/2.2b7141d4.chunk.js",
+    "static/js/2.2b7141d4.chunk.js.map": "/Shiba---A-chat-Bot/static/js/2.2b7141d4.chunk.js.map",
+    "static/js/3.bd0f83ee.chunk.js": "/Shiba---A-chat-Bot/static/js/3.bd0f83ee.chunk.js",
+    "static/js/3.bd0f83ee.chunk.js.map": "/Shiba---A-chat-Bot/static/js/3.bd0f83ee.chunk.js.map",
+    "index.html": "/Shiba---A-chat-Bot/index.html",
+    "static/css/main.38015c35.chunk.css.map": "/Shiba---A-chat-Bot/static/css/main.38015c35.chunk.css.map",
+    "static/js/2.2b7141d4.chunk.js.LICENSE.txt": "/Shiba---A-chat-Bot/static/js/2.2b7141d4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4ae21c99.js",
+    "static/js/runtime-main.4684566e.js",
     "static/js/2.2b7141d4.chunk.js",
     "static/css/main.38015c35.chunk.css",
     "static/js/main.e5b61545.chunk.js"
