@@ -10,8 +10,8 @@ const Commands = (props) => {
       id: 1,
     },
     { 
-      text: "!about", 
-      handler: props.actionProvider.GetAbout, 
+      text: "!start", 
+      handler: props.actionProvider.WhereToStart, 
       id: 2 
     },
     { 

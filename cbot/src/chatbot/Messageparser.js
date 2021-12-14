@@ -23,13 +23,13 @@ class MessageParser {
     else if (lowercase.includes("!news") || lowercase.includes("news")) {
       this.actionProvider.GetNews();
     }
-    else if (lowercase.includes("!about") || lowercase.includes("about")) {
-      this.actionProvider.GetNews();
+    else if (lowercase.includes("what is crypto?") || lowercase.includes("crypto")) {
+      this.actionProvider.WhatIsCrypto();
     }
     else if (lowercase.includes("!cryptoMine") || lowercase.includes("Cryptomine")) {
       this.actionProvider.GetMine();
     }
-    else if (lowercase.includes("!platforms") || lowercase.includes("where to invest")) {
+    else if (lowercase.includes("!platforms") || lowercase.includes("where to invest") || lowercase.includes("platform")) {
       this.actionProvider.GetPlat();
     }
     else{

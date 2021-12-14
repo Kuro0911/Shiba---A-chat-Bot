@@ -20,18 +20,12 @@ class ActionProvider {
     const msg1 = this.createChatBotMessage("I can help you get information about Crypto");
     const msg2 = this.createChatBotMessage("These are some prompts that you can use to communicate with me easily");
     const msg3 = this.createChatBotMessage("!help (use this to get the list of commands)");
-    const msg4 = this.createChatBotMessage("!about(use this to get a basic introduction of Crypto");
     this.addMessageToState(msg1);
     this.addMessageToState(msg2);
     this.addMessageToState(msg3);
-    this.addMessageToState(msg4);
   };
   GetNews = () => {
     const message = this.createChatBotMessage("Bitcoin, BTC to USD, rose by 4.73% on Saturday. Reversing a 0.82% loss from Friday, Bitcoin ended the day at $49,426.");
-    this.addMessageToState(message);
-  }
-  GetAbout = () => {
-    const message = this.createChatBotMessage("A cryptocurrency, crypto-currency, or crypto is a collection of binary data which is designed to work as a medium of exchange. Individual coin ownership records are stored in a ledger, which is a computerized database using strong cryptography to secure transaction records, to control the creation of additional coins, and to verify the transfer of coin ownership.");
     this.addMessageToState(message);
   }
   GetMine = () => {
@@ -44,20 +38,28 @@ class ActionProvider {
 
   }
   GoToBinace = () => {
-    const message = this.createChatBotMessage("Binace link");
-    this.addMessageToState(message);
+    const msg1 = this.createChatBotMessage("Here is the link to Binance");
+    const msg2 = this.createChatBotMessage("https://accounts.binance.com ");
+    this.addMessageToState(msg1);
+    this.addMessageToState(msg2);
   }
   GoToCoinbase = () => {
-    const message = this.createChatBotMessage("CoinBase Link");
-    this.addMessageToState(message);
+    const msg1 = this.createChatBotMessage("Here is the link to Coinbase");
+    const msg2 = this.createChatBotMessage("https://www.coinbase.com ");
+    this.addMessageToState(msg1);
+    this.addMessageToState(msg2);
   }
   GoToKraken = () => {
-    const message = this.createChatBotMessage("Kraken link");
-    this.addMessageToState(message);
+    const msg1 = this.createChatBotMessage("Here is the link to Kraken");
+    const msg2 = this.createChatBotMessage("https://www.kraken.com/sign-up");
+    this.addMessageToState(msg1);
+    this.addMessageToState(msg2);
   }
   GoToWazirX = () => {
-    const message = this.createChatBotMessage("WazirX link");
-    this.addMessageToState(message);
+    const msg1 = this.createChatBotMessage("Here is the link to WazirX");
+    const msg2 = this.createChatBotMessage("http://www.wazirx-signup.us/");
+    this.addMessageToState(msg1);
+    this.addMessageToState(msg2);
   }
   WhatIsCrypto = () => {
     const msg1 = this.createChatBotMessage("Cryptocurrency is a currency that has cryptography (encrypted code) in it to protect it.");
