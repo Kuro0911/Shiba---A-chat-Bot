@@ -7,7 +7,7 @@
   .faqs-button {
     background-color: rgba(5, 202, 136, 0.568);
     padding: 10px;
-    border-style: hidden;
+    border-style: inset;
     border-radius: 18px;
     font-size: 0.9rem;
     color: white;
