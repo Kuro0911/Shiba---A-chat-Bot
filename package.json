@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "react-chatbot-kit": "^2.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
