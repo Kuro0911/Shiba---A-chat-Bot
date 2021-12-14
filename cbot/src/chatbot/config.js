@@ -6,13 +6,15 @@ import Options from "../components/Options/Options";
 import Quiz from "../components/Quiz/Quiz";
 import Commands from "../components/commands/commands";
 import Plat from "../components/plats/platforms";
+import Faqs from "../components/faqs/faqs";
 
 const config = {
   botName: "CryptoBot",
   initialMessages: [createChatBotMessage(`I am Shiba - The CryptoBot How may i help you?`), 
-  createChatBotMessage(`To get started try typing !help`,
+  createChatBotMessage(`To get started try typing !help`),
+  createChatBotMessage(`Here are some frequently asked Questions`,
   {
-    widget: "options",
+    widget: "Faqs",
   }),
   ],
   customComponents: {     
@@ -33,6 +35,10 @@ const config = {
       {
         widgetName: "options",
         widgetFunc: (props) => <Options {...props} />,
+      },
+      {
+        widgetName: "Faqs",
+        widgetFunc: (props) => <Faqs {...props} />,
       },
       {
         widgetName: "BasicQuiz",
