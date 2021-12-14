@@ -38,28 +38,16 @@ class ActionProvider {
 
   }
   GoToBinace = () => {
-    const msg1 = this.createChatBotMessage("Here is the link to Binance");
-    const msg2 = this.createChatBotMessage("https://accounts.binance.com ");
-    this.addMessageToState(msg1);
-    this.addMessageToState(msg2);
+    window.open("https://accounts.binance.com");
   }
   GoToCoinbase = () => {
-    const msg1 = this.createChatBotMessage("Here is the link to Coinbase");
-    const msg2 = this.createChatBotMessage("https://www.coinbase.com ");
-    this.addMessageToState(msg1);
-    this.addMessageToState(msg2);
+    window.open("https://www.coinbase.com");
   }
   GoToKraken = () => {
-    const msg1 = this.createChatBotMessage("Here is the link to Kraken");
-    const msg2 = this.createChatBotMessage("https://www.kraken.com/sign-up");
-    this.addMessageToState(msg1);
-    this.addMessageToState(msg2);
+    window.open("https://www.kraken.com/sign-up");
   }
   GoToWazirX = () => {
-    const msg1 = this.createChatBotMessage("Here is the link to WazirX");
-    const msg2 = this.createChatBotMessage("http://www.wazirx-signup.us/");
-    this.addMessageToState(msg1);
-    this.addMessageToState(msg2);
+    window.open("http://www.wazirx-signup.us/");
   }
   WhatIsCrypto = () => {
     const msg1 = this.createChatBotMessage("Cryptocurrency is a currency that has cryptography (encrypted code) in it to protect it.");
