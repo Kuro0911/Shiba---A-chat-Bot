@@ -70,11 +70,23 @@ class ActionProvider {
     const message = this.createChatBotMessage("yo");
     this.addMessageToState(message);  
   }
+  getEth = () => {
+    const message = this.createChatBotMessage("Eth price");
+    this.addMessageToState(message);  
+  }
+  getLite = () => {
+    const message = this.createChatBotMessage("lite price");
+    this.addMessageToState(message);  
+  }
+  getDoge = () => {
+    const message = this.createChatBotMessage("Doge price");
+    this.addMessageToState(message);  
+  }
   GetPrice = () => {
     const message = this.createChatBotMessage(
       "Choose the coin for which you want to know the price ",
       {
-        widget: "real ",
+        widget: "real",
       }  
     );
     this.addMessageToState(message);
