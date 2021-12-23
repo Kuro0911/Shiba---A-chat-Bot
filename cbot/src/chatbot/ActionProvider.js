@@ -24,10 +24,6 @@ class ActionProvider {
     this.addMessageToState(msg2);
     this.addMessageToState(msg3);
   };
-  GetNews = () => {
-    const message = this.createChatBotMessage("Bitcoin, BTC to USD, rose by 4.73% on Saturday. Reversing a 0.82% loss from Friday, Bitcoin ended the day at $49,426.");
-    this.addMessageToState(message);
-  }
   GetMine = () => {
     const msg1 = this.createChatBotMessage("Crypto mining is the process of creating individual blocks added to the blockchain by solving complex mathematical problems.");
     const msg2 = this.createChatBotMessage("The purpose of mining is to verify cryptocurrency transactions and show proof of work, adding this information to a block on the blockchain, which acts as a ledger for mining transactions.");
@@ -35,7 +31,7 @@ class ActionProvider {
     this.addMessageToState(msg1);
     this.addMessageToState(msg2);
     this.addMessageToState(msg3);
-
+    
   }
   GoToBinace = () => {
     window.open("https://accounts.binance.com");
@@ -56,7 +52,7 @@ class ActionProvider {
     this.addMessageToState(msg1);
     this.addMessageToState(msg2);
     this.addMessageToState(msg3);
-
+    
   }
   MoneyGo = () => {
     const message = this.createChatBotMessage("The money goes to the people who sell; some of them got their crypto for free through mining, airdrops, or if they were the ones to start the currency - all depending in each particular case.");
@@ -69,6 +65,19 @@ class ActionProvider {
     this.addMessageToState(msg1);
     this.addMessageToState(msg2);
     this.addMessageToState(msg3);
+  }
+  getBtc = () => {
+    const message = this.createChatBotMessage("yo");
+    this.addMessageToState(message);  
+  }
+  GetPrice = () => {
+    const message = this.createChatBotMessage(
+      "Choose the coin for which you want to know the price ",
+      {
+        widget: "real ",
+      }  
+    );
+    this.addMessageToState(message);
   }
   GetPlat = () => {
     const message = this.createChatBotMessage(
@@ -89,35 +98,6 @@ class ActionProvider {
     this.addMessageToState(message);
   };
 
-  handleBasicQuiz = () => {
-    const message = this.createChatBotMessage(
-      "here are some steps which can help you start",
-      {
-        widget: "BasicQuiz",
-      }
-    );
-
-    this.addMessageToState(message);
-  };
-  handleInvestQuiz = () => {
-    const message = this.createChatBotMessage(
-      "how to invest quiz",
-      {
-        widget: "InvestQuiz",
-      }
-    );
-
-    this.addMessageToState(message);
-  };
-  handleThirdQuiz = () => {
-    const message = this.createChatBotMessage(
-      "some important terms",
-      {
-        widget: "ThirdQuiz",
-      }
-    );
-    this.addMessageToState(message);
-  };
   addMessageToState = (message) => {
     this.setState((prevState) => ({
       ...prevState,

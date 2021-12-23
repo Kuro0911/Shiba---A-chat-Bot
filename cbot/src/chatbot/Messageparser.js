@@ -20,8 +20,8 @@ class MessageParser {
     else if (lowercase.includes("!help") || lowercase.includes("help")) {
       this.actionProvider.GetHelp();
     }
-    else if (lowercase.includes("!news") || lowercase.includes("news")) {
-      this.actionProvider.GetNews();
+    else if (lowercase.includes("!price") || lowercase.includes("price")) {
+      this.actionProvider.GetPrice();
     }
     else if (lowercase.includes("what is crypto?") || lowercase.includes("crypto")) {
       this.actionProvider.WhatIsCrypto();
