@@ -14,6 +14,10 @@
   padding: 0 17.5px 10px 17.5px;
   overflow: auto;
   height: 424px;
+  scrollbar-width: none;
+}
+::-webkit-scrollbar{
+  display: none;
 }
 .react-chatbot-kit-chat-bot-message {
   background-color: rgba(5, 202, 136, 0.568);
