@@ -15,8 +15,8 @@ const Real = (props) => {
       id: 2 
     },
     { 
-      text: "LiteCoin", 
-      handler: props.actionProvider.getLite, 
+      text: "BNB Coin", 
+      handler: props.actionProvider.getBnb, 
       id: 3 
     },
     { 

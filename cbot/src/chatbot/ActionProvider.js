@@ -67,20 +67,101 @@ class ActionProvider {
     this.addMessageToState(msg3);
   }
   getBtc = () => {
-    const message = this.createChatBotMessage("yo");
-    this.addMessageToState(message);  
+    const message = this.createChatBotMessage("Current Price of Bitcoin is :");
+    this.addMessageToState(message);
+    const base = 'wss://stream.wazirx.com/stream';
+    const ws = new WebSocket(base);
+    ws.addEventListener('open' , () => {
+      ws.send(JSON.stringify({ event: 'subscribe', streams : ["!ticker@arr"]}));
+    });
+    ws.onmessage = (event) => {
+      const res = JSON.parse(event.data)
+      const { data } = res;
+      if (!Array.isArray(data)) return;
+      const btcInr = data.filter((obj) => {
+        return obj.s === "btcinr"
+      })
+      if (btcInr.length === 0) return;
+      const [price] = btcInr;
+      console.log(price.c);
+      const msg = this.createChatBotMessage("₹" + price.c);
+      this.addMessageToState(msg);
+      ws.close();
+      return;
+    } 
   }
   getEth = () => {
-    const message = this.createChatBotMessage("Eth price");
-    this.addMessageToState(message);  
+    const message = this.createChatBotMessage("Current Price of Ethereum is :");
+    this.addMessageToState(message);
+    const base = 'wss://stream.wazirx.com/stream';
+    const ws = new WebSocket(base);
+    ws.addEventListener('open' , () => {
+      ws.send(JSON.stringify({ event: 'subscribe', streams : ["!ticker@arr"]}));
+    });
+    ws.onmessage = (event) => {
+      const res = JSON.parse(event.data)
+      const { data } = res;
+      if (!Array.isArray(data)) return;
+      const ethInr = data.filter((obj) => {
+        return obj.s === "ethinr"
+      })
+      if (ethInr.length === 0) return;
+      const [price] = ethInr;
+      console.log(price.c);
+      const msg = this.createChatBotMessage("₹" + price.c);
+      this.addMessageToState(msg);
+      ws.close();
+      return;
+    }
+
   }
-  getLite = () => {
-    const message = this.createChatBotMessage("lite price");
-    this.addMessageToState(message);  
+  getBnb = () => {
+    const message = this.createChatBotMessage("Current Price of BNB Coin is :");
+    this.addMessageToState(message);
+    const base = 'wss://stream.wazirx.com/stream';
+    const ws = new WebSocket(base);
+    ws.addEventListener('open' , () => {
+      ws.send(JSON.stringify({ event: 'subscribe', streams : ["!ticker@arr"]}));
+    });
+    ws.onmessage = (event) => {
+      const res = JSON.parse(event.data)
+      const { data } = res;
+      if (!Array.isArray(data)) return;
+      const bnbInr = data.filter((obj) => {
+        return obj.s === "bnbinr"
+      })
+      if (bnbInr.length === 0) return;
+      const [price] = bnbInr;
+      console.log(price.c);
+      const msg = this.createChatBotMessage("₹" + price.c);
+      this.addMessageToState(msg);
+      ws.close();
+      return;
+    } 
   }
   getDoge = () => {
-    const message = this.createChatBotMessage("Doge price");
-    this.addMessageToState(message);  
+    const message = this.createChatBotMessage("Current Price of Doge Coin is :");
+    this.addMessageToState(message);
+    const base = 'wss://stream.wazirx.com/stream';
+    const ws = new WebSocket(base);
+    ws.addEventListener('open' , () => {
+      ws.send(JSON.stringify({ event: 'subscribe', streams : ["!ticker@arr"]}));
+    });
+    ws.onmessage = (event) => {
+      const res = JSON.parse(event.data)
+      const { data } = res;
+      if (!Array.isArray(data)) return;
+      const dogeInr = data.filter((obj) => {
+        return obj.s === "dogeinr"
+      })
+      if (dogeInr.length === 0) return;
+      const [price] = dogeInr;
+      console.log(price.c);
+      const msg = this.createChatBotMessage("₹" + price.c);
+      this.addMessageToState(msg);
+      ws.close();
+      return;
+    } 
   }
   GetPrice = () => {
     const message = this.createChatBotMessage(
