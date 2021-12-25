@@ -5,9 +5,10 @@ import "./faqs.css";
 const Faqs = (props) => {
   const faqs = [
     {
-      text: "What is Cryptocurrency?",
-      handler: props.actionProvider.WhatIsCrypto,
-      id: 1,
+      text: "How do I start?", 
+      handler: props.actionProvider.WhereToStart, 
+      id: 1
+      
     },
     { 
       text: "where does the money go?", 
@@ -15,9 +16,9 @@ const Faqs = (props) => {
       id: 2 
     },
     { 
-      text: "Where do I start ", 
-      handler: props.actionProvider.WhereToStart, 
-      id: 3 
+      text: "What is Cryptocurrency?",
+      handler: props.actionProvider.WhatIsCrypto,
+      id: 3,
     },
   ];
 

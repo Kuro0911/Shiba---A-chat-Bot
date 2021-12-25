@@ -47,10 +47,8 @@ class ActionProvider {
   }
   WhatIsCrypto = () => {
     const msg1 = this.createChatBotMessage("Cryptocurrency is a currency that has cryptography (encrypted code) in it to protect it.");
-    const msg2 = this.createChatBotMessage("When a currency is only moved or circulated online, some additional protections are needed with technology the same way physical security is necessary with large amounts of physical cash.");
     const msg3 = this.createChatBotMessage("  These digital assets can be used in financial transactions since they are secured with the cryptography to make them safer.");
     this.addMessageToState(msg1);
-    this.addMessageToState(msg2);
     this.addMessageToState(msg3);
     
   }
@@ -59,9 +57,13 @@ class ActionProvider {
     this.addMessageToState(message);
   }
   WhereToStart = () => {
-    const msg1 = this.createChatBotMessage("Step 1 : Open an account on any platforms like Kraken or type !platform to get more info");
-    const msg2 = this.createChatBotMessage("Step 2 : Buy your first whole or part BTC, LTC, ETH or other supported cryptocurrencies");
-    const msg3 = this.createChatBotMessage("Step 3 : Move the longer term investment (non-trading) portion to a wallet you control ")
+    const msg1 = this.createChatBotMessage("Step 1 : Open an account on any platforms like Kraken or choose from the ones below");
+    const msg2 = this.createChatBotMessage("Step 2 : Buy your first whole or part BTC, LTC, ETH or other supported cryptocurrencies To know the real time price look below",
+    {
+      widget: "real",
+    },
+    );
+    const msg3 = this.createChatBotMessage("Step 3 : You are ready to start trading")
     this.addMessageToState(msg1);
     this.addMessageToState(msg2);
     this.addMessageToState(msg3);

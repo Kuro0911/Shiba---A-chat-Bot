@@ -15,8 +15,8 @@ const Commands = (props) => {
       id: 2 
     },
     { 
-      text: "!cryptoMine", 
-      handler: props.actionProvider.GetMine, 
+      text: "!price", 
+      handler: props.actionProvider.GetPrice, 
       id: 3 
     },
     { 
