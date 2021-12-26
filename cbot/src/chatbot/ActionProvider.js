@@ -76,7 +76,9 @@ class ActionProvider {
     this.addMessageToState(msg3);
   }
   getBtc = () => {
-    const message = this.createChatBotMessage("Current Price of Bitcoin is :");
+    const message = this.createChatBotMessage("Current Price of Bitcoin is :",{
+      withAvatar: true,
+    });
     this.addMessageToState(message);
     const base = 'wss://stream.wazirx.com/stream';
     const ws = new WebSocket(base);
@@ -100,7 +102,9 @@ class ActionProvider {
     } 
   }
   getEth = () => {
-    const message = this.createChatBotMessage("Current Price of Ethereum is :");
+    const message = this.createChatBotMessage("Current Price of Ethereum is :",{
+      withAvatar: true,
+    });
     this.addMessageToState(message);
     const base = 'wss://stream.wazirx.com/stream';
     const ws = new WebSocket(base);
@@ -117,7 +121,7 @@ class ActionProvider {
       if (ethInr.length === 0) return;
       const [price] = ethInr;
       console.log(price.c);
-      const msg = this.createChatBotMessage("₹" + price.c);
+      const msg = this.createChatBotMessage(`₹ ${price.c}`);
       this.addMessageToState(msg);
       ws.close();
       return;
@@ -125,7 +129,9 @@ class ActionProvider {
 
   }
   getBnb = () => {
-    const message = this.createChatBotMessage("Current Price of BNB Coin is :");
+    const message = this.createChatBotMessage("Current Price of BNB Coin is :",{
+      withAvatar: true,
+    });
     this.addMessageToState(message);
     const base = 'wss://stream.wazirx.com/stream';
     const ws = new WebSocket(base);
@@ -142,14 +148,16 @@ class ActionProvider {
       if (bnbInr.length === 0) return;
       const [price] = bnbInr;
       console.log(price.c);
-      const msg = this.createChatBotMessage("₹" + price.c);
+      const msg = this.createChatBotMessage(`₹ ${price.c}`);
       this.addMessageToState(msg);
       ws.close();
       return;
     } 
   }
   getDoge = () => {
-    const message = this.createChatBotMessage("Current Price of Doge Coin is :");
+    const message = this.createChatBotMessage("Current Price of Doge Coin is :",{
+      withAvatar: true,
+    });
     this.addMessageToState(message);
     const base = 'wss://stream.wazirx.com/stream';
     const ws = new WebSocket(base);
@@ -166,7 +174,7 @@ class ActionProvider {
       if (dogeInr.length === 0) return;
       const [price] = dogeInr;
       console.log(price.c);
-      const msg = this.createChatBotMessage("₹" + price.c);
+      const msg = this.createChatBotMessage(`₹ ${price.c}`);
       this.addMessageToState(msg);
       ws.close();
       return;
