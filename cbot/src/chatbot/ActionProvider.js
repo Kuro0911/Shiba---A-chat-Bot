@@ -57,7 +57,7 @@ class ActionProvider {
     this.addMessageToState(message);
   }
   WhereToStart = () => {
-    const msg1 = this.createChatBotMessage("Step 1 : Open an account on any platforms like Kraken or choose from the ones below");
+    const msg1 = this.createChatBotMessage("Step 1 : Open an account on any platforms like Kraken or type platforms to know more");
     const msg2 = this.createChatBotMessage("Step 2 : Buy your first whole or part BTC, LTC, ETH or other supported cryptocurrencies To know the real time price look below",
     {
       widget: "real",
