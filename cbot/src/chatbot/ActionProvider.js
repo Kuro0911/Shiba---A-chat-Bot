@@ -57,13 +57,20 @@ class ActionProvider {
     this.addMessageToState(message);
   }
   WhereToStart = () => {
-    const msg1 = this.createChatBotMessage("Step 1 : Open an account on any platforms like Kraken or type platforms to know more");
+    const msg1 = this.createChatBotMessage("Step 1 : Open an account on any platforms like Kraken or type platforms to know more",{
+      withAvatar: true,
+    });
     const msg2 = this.createChatBotMessage("Step 2 : Buy your first whole or part BTC, LTC, ETH or other supported cryptocurrencies To know the real time price look below",
     {
       widget: "real",
+      withAvatar: true,
+      delay: 1500
     },
     );
-    const msg3 = this.createChatBotMessage("Step 3 : You are ready to start trading")
+    const msg3 = this.createChatBotMessage("Step 3 : You are ready to start trading",{
+      withAvatar: true,
+      delay: 3000
+    })
     this.addMessageToState(msg1);
     this.addMessageToState(msg2);
     this.addMessageToState(msg3);
