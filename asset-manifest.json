@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Shiba---A-chat-Bot/static/css/main.3434a7de.chunk.css",
-    "main.js": "/Shiba---A-chat-Bot/static/js/main.56c7ce2b.chunk.js",
-    "main.js.map": "/Shiba---A-chat-Bot/static/js/main.56c7ce2b.chunk.js.map",
+    "main.js": "/Shiba---A-chat-Bot/static/js/main.f7f2b17f.chunk.js",
+    "main.js.map": "/Shiba---A-chat-Bot/static/js/main.f7f2b17f.chunk.js.map",
     "runtime-main.js": "/Shiba---A-chat-Bot/static/js/runtime-main.4684566e.js",
     "runtime-main.js.map": "/Shiba---A-chat-Bot/static/js/runtime-main.4684566e.js.map",
     "static/js/2.63baea05.chunk.js": "/Shiba---A-chat-Bot/static/js/2.63baea05.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4684566e.js",
     "static/js/2.63baea05.chunk.js",
     "static/css/main.3434a7de.chunk.css",
-    "static/js/main.56c7ce2b.chunk.js"
+    "static/js/main.f7f2b17f.chunk.js"
   ]
 }
