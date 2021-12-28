@@ -5,8 +5,8 @@ import "./commands.css";
 const Commands = (props) => {
   const commands = [
     {
-      text: "!price",
-      handler: props.actionProvider.GetPrice,
+      text: "!Crypto",
+      handler: props.actionProvider.WhatIsCrypto,
       id: 1,
     },
     { 
