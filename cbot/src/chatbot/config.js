@@ -7,6 +7,7 @@ import Commands from "../components/commands/commands";
 import Plat from "../components/plats/platforms";
 import Faqs from "../components/faqs/faqs";
 import Real from "../components/RealTimePrice/real";
+import Source from "../components/SourceCode/source";
 
 
 const config = {
@@ -44,6 +45,10 @@ const config = {
     {
       widgetName: "Faqs",
       widgetFunc: (props) => <Faqs {...props} />,
+    },
+    {
+      widgetName: "source",
+      widgetFunc: (props) => <Source {...props} />, 
     },
   ],
 };

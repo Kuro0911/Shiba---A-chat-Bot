@@ -16,13 +16,18 @@ class ActionProvider {
     const message = this.createChatBotMessage("Sorry I didn't quite catch that!!");
     this.addMessageToState(message);
   };
+  GetSource = () => {
+      window.open("https://github.com/Kuro0911/Shiba---A-chat-Bot");
+  }
   WhatCanDo = () => {
     const msg1 = this.createChatBotMessage("I can help you get information about Crypto");
-    const msg2 = this.createChatBotMessage("These are some prompts that you can use to communicate with me easily");
-    const msg3 = this.createChatBotMessage("!help (use this to get the list of commands)");
+    const msg2 = this.createChatBotMessage("!help (use this to get the list of commands)",
+      {
+        widget:"source",
+      }
+    );
     this.addMessageToState(msg1);
     this.addMessageToState(msg2);
-    this.addMessageToState(msg3);
   };
   GetMine = () => {
     const msg1 = this.createChatBotMessage("Crypto mining is the process of creating individual blocks added to the blockchain by solving complex mathematical problems.");
