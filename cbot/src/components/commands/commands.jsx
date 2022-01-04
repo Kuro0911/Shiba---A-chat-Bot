@@ -5,13 +5,13 @@ import "./commands.css";
 const Commands = (props) => {
   const commands = [
     {
-      text: "!Crypto",
-      handler: props.actionProvider.WhatIsCrypto,
-      id: 1,
-    },
-    { 
       text: "!start", 
       handler: props.actionProvider.WhereToStart, 
+      id: 1 
+    },
+    { 
+      text: "!Strategy", 
+      handler: props.actionProvider.GetStat, 
       id: 2 
     },
     { 

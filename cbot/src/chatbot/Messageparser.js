@@ -32,6 +32,9 @@ class MessageParser {
     else if (lowercase.includes("!platforms") || lowercase.includes("where to invest") || lowercase.includes("platform")) {
       this.actionProvider.GetPlat();
     }
+    else if (lowercase.includes("stat")) {
+      this.actionProvider.GetStat();
+    }
     else{
       this.actionProvider.CheckError();
     }

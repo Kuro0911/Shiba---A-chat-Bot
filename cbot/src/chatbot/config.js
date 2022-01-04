@@ -8,6 +8,7 @@ import Plat from "../components/plats/platforms";
 import Faqs from "../components/faqs/faqs";
 import Real from "../components/RealTimePrice/real";
 import Source from "../components/SourceCode/source";
+import Vcoin from "../components/Strategy/strategy";
 
 
 const config = {
@@ -29,6 +30,10 @@ const config = {
     {
       widgetName: "commands",
       widgetFunc: (props) => <Commands {...props} />,
+    },
+    {
+      widgetName: "Vcoins",
+      widgetFunc: (props) => <Vcoin {...props} />,
     },
     {
       widgetName: "real",

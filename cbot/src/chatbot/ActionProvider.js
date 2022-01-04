@@ -212,7 +212,20 @@ class ActionProvider {
     );
     this.addMessageToState(message);
   };
+  GetStat = () => {
+    const msg1 = this.createChatBotMessage(
+      "To show you how your strategy would have worked according to the past behaviour of the BTC we will create a virtual environment"
+    );
+    const msg2 = this.createChatBotMessage("We will provide you with 100 virtual coins the value of 2 of these virtual coins is 1 BTC at the start of the simulation",
+    {
+      widget: "Vcoins",
+      delay: 1500
+    },
+    );
+    this.addMessageToState(msg1);
+    this.addMessageToState(msg2);
 
+  }
   addMessageToState = (message) => {
     this.setState((prevState) => ({
       ...prevState,
