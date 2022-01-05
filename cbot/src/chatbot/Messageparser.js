@@ -36,28 +36,28 @@ class MessageParser {
       this.actionProvider.GetStat();
     }
     else if (lowercase.includes("BTC stats")) {
-      this.actionProvider.GetBtcStr();
+      this.actionProvider.getBtcStr();
     }
     else if (lowercase.includes("BNB stats")) {
-      this.actionProvider.GetBnbStr();
+      this.actionProvider.getBnbStr();
     }
     else if (lowercase.includes("doge stats")) {
-      this.actionProvider.GetDogeStr();
+      this.actionProvider.getDogeStr();
     }
     else if (lowercase.includes("Eth stats")) {
-      this.actionProvider.GetEthStr();
+      this.actionProvider.getEthStr();
     }
     else if (lowercase.includes("BTC price right now") || lowercase.includes("btc price")) {
-      this.actionProvider.GetBtc();
+      this.actionProvider.getBtc();
     }
     else if (lowercase.includes("ETH price right now") || lowercase.includes("Eth price")) {
-      this.actionProvider.GetEth();
+      this.actionProvider.getEth();
     }
     else if (lowercase.includes("bnb price right now") || lowercase.includes("bnb price")) {
-      this.actionProvider.GetBnb();
+      this.actionProvider.getBnb();
     }
     else if (lowercase.includes("Doge price right now") || lowercase.includes("doge price")) {
-      this.actionProvider.GetDoge();
+      this.actionProvider.getDoge();
     }
     
     else{
