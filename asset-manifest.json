@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Shiba---A-chat-Bot/static/css/main.adf6ccdb.chunk.css",
-    "main.js": "/Shiba---A-chat-Bot/static/js/main.40891542.chunk.js",
-    "main.js.map": "/Shiba---A-chat-Bot/static/js/main.40891542.chunk.js.map",
-    "runtime-main.js": "/Shiba---A-chat-Bot/static/js/runtime-main.dbb44f1a.js",
-    "runtime-main.js.map": "/Shiba---A-chat-Bot/static/js/runtime-main.dbb44f1a.js.map",
-    "static/js/2.63baea05.chunk.js": "/Shiba---A-chat-Bot/static/js/2.63baea05.chunk.js",
-    "static/js/2.63baea05.chunk.js.map": "/Shiba---A-chat-Bot/static/js/2.63baea05.chunk.js.map",
-    "static/js/3.86766856.chunk.js": "/Shiba---A-chat-Bot/static/js/3.86766856.chunk.js",
-    "static/js/3.86766856.chunk.js.map": "/Shiba---A-chat-Bot/static/js/3.86766856.chunk.js.map",
+    "main.css": "/Shiba---A-chat-Bot/static/css/main.879da859.chunk.css",
+    "main.js": "/Shiba---A-chat-Bot/static/js/main.7516b614.chunk.js",
+    "main.js.map": "/Shiba---A-chat-Bot/static/js/main.7516b614.chunk.js.map",
+    "runtime-main.js": "/Shiba---A-chat-Bot/static/js/runtime-main.44fecce7.js",
+    "runtime-main.js.map": "/Shiba---A-chat-Bot/static/js/runtime-main.44fecce7.js.map",
+    "static/js/2.ab4776c5.chunk.js": "/Shiba---A-chat-Bot/static/js/2.ab4776c5.chunk.js",
+    "static/js/2.ab4776c5.chunk.js.map": "/Shiba---A-chat-Bot/static/js/2.ab4776c5.chunk.js.map",
+    "static/js/3.4f1bd97f.chunk.js": "/Shiba---A-chat-Bot/static/js/3.4f1bd97f.chunk.js",
+    "static/js/3.4f1bd97f.chunk.js.map": "/Shiba---A-chat-Bot/static/js/3.4f1bd97f.chunk.js.map",
     "index.html": "/Shiba---A-chat-Bot/index.html",
-    "static/css/main.adf6ccdb.chunk.css.map": "/Shiba---A-chat-Bot/static/css/main.adf6ccdb.chunk.css.map",
-    "static/js/2.63baea05.chunk.js.LICENSE.txt": "/Shiba---A-chat-Bot/static/js/2.63baea05.chunk.js.LICENSE.txt"
+    "static/css/main.879da859.chunk.css.map": "/Shiba---A-chat-Bot/static/css/main.879da859.chunk.css.map",
+    "static/js/2.ab4776c5.chunk.js.LICENSE.txt": "/Shiba---A-chat-Bot/static/js/2.ab4776c5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dbb44f1a.js",
-    "static/js/2.63baea05.chunk.js",
-    "static/css/main.adf6ccdb.chunk.css",
-    "static/js/main.40891542.chunk.js"
+    "static/js/runtime-main.44fecce7.js",
+    "static/js/2.ab4776c5.chunk.js",
+    "static/css/main.879da859.chunk.css",
+    "static/js/main.7516b614.chunk.js"
   ]
 }
