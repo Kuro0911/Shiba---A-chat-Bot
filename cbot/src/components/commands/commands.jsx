@@ -10,7 +10,7 @@ const Commands = (props) => {
       id: 1 
     },
     { 
-      text: "!Strategy", 
+      text: "!Stats", 
       handler: props.actionProvider.GetStat, 
       id: 2 
     },
